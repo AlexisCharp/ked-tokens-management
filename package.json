@@ -1,0 +1,14 @@
+{
+  "name": "ked-tokens-management",
+  "scripts": {
+    "format": "prettier --write \"**/*.css\"",
+    "transform-tokens:global": "token-transformer tokens/tokens.json token-transformer/global.json global --expandTypography --resolveReferences=false",
+    "transform-tokens": "npm run transform-tokens:global && node scripts/tokens/transform.js && npm run format"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "style-dictionary": "^3.8.0",
+    "token-transformer": "^0.0.33"
+  }
+}
