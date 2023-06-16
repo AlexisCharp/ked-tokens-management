@@ -23,7 +23,7 @@ const PATHS = {
 
 const PREFIX = 'ked';
 
-const toRem = (value) => `rem(${value})`;
+const toRem = (value) => `${parseInt(value) / 16}rem`;
 const toCssCustomProperty = (value) => `var(--${value})`;
 
 module.exports = { TOKEN_TYPE, PATHS, PREFIX, toRem, toCssCustomProperty };

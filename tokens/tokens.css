@@ -1,18 +1,18 @@
 /**
  * Do not edit directly
- * Generated on Sat, 27 May 2023 15:54:08 GMT
+ * Generated on Fri, 16 Jun 2023 11:49:08 GMT
  */
 
 :root {
-  --ked-inter: Inter;
-  --ked-bold: 700;
-  --ked-fontsize-100: rem(16px);
-  --ked-body-bold-font-family: Inter;
-  --ked-body-bold-font-weight: 700;
-  --ked-body-bold-font-size: rem(rem(16px));
-  --ked-green: #219653;
-  --ked-sizing-300: rem(48px);
-  --ked-spacing-100: rem(16px);
-  --ked-radius-100: rem(16px);
-  --ked-white: #ffffff;
+  --ked-sizing-300: 3rem;
+  --ked-spacing-200: 2rem;
+  --ked-color-bg-accent: #772fed;
+  --ked-border-radius-050: 0.5rem;
+  --ked-border-radius-100: 1rem;
+  --ked-color-text-default: #ffffff;
+  --ked-font-size-100: 1rem;
+  --ked-font-size-125: 1.25rem;
+  --ked-poppins: Poppins;
+  --ked-font-weight-700: 700;
+  --ked-shadow-down-l: 0px 4px 8px 0px #cecece;
 }
